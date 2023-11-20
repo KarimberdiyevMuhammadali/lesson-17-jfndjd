@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}

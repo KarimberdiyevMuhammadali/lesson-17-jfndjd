@@ -1,0 +1,142 @@
+@import"../base/global.css";
+
+.header{
+    padding-top: 50px;
+}
+
+.header__content{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.header__content__left{
+    padding-top: 27px;
+}
+
+.header__content__left h1{
+    width: 555px;
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px; /* 140% */
+}
+
+.header__content__left h1 span{
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.header__content__left p{
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.header__content__left p span{
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.header__content__left button{
+    margin-top: 50px;
+    padding: 17.5px 77.5px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background-color: #FFF;
+    border: 1px solid #F53855;
+
+    color: #F53855;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    transition: 0.5s;
+}
+
+.header__content__left button:hover {
+    color: #FFF;
+    background: #F53838;
+    box-shadow:20px 35px 27px -20px #F5383859;
+}
+
+
+.header__content__right img{
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+
+.card-box{
+    margin-top: 100px;
+    padding: 35px 0;
+    display: grid;
+    align-items: center;
+    
+    align-content: center;
+    grid-template-columns: repeat(3,1fr);
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    background: transparent;
+
+    box-shadow:40px 40px 57px #0d10250f;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 0;
+    gap: 35px;
+}
+
+.card-middle{
+    border-left: 2px solid #EEEFF2;
+    border-right: 2px solid #EEEFF2;
+} 
+
+.card__img-box{
+   
+    
+    display: flex;
+    align-items: center;
+    background: #FFECEC;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    padding: 15.5px;
+    
+}
+
+.card__content-box h1{
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 120% */
+}
+
+.card__content-box p{
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}

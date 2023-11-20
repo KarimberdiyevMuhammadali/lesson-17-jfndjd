@@ -1,0 +1,96 @@
+@import"../base/global.css";
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 9999999999999;
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    transition: 0.5s;
+}
+
+.navbar-shrink {
+	padding: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.logo-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-box p{
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-list__item:hover{
+    border-bottom: 1px solid #4F5665;
+}
+
+.nav-list__link{
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.nav-right__sign-in-link{
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav-right__sign-up-btn{
+    padding: 13px 45px;
+    border-radius: 50px;
+    border: 1px solid #F53855;
+    background-color: #fff;
+    color: #F53855;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: 0.5s;
+}
+
+.nav-right__sign-up-btn:hover {
+    color: #fff;
+    background-color: #F53838;
+    box-shadow: 10px 10px 27px #F5383859;
+}
+
